@@ -20,7 +20,7 @@ function TrainingTable() {
         {   
             field:'date', 
             sortable: true, 
-            ilter: true,
+            filter: true,
             cellRenderer: params => {
                 return dayjs(params.value).format('MM/DD/YYYY h:mm A') 
                 }
